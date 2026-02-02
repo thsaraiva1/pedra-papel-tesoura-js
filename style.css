@@ -1,0 +1,186 @@
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #e6ddd6;
+  color: #1f1f1f;
+
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 520px;
+
+  background: #dfd5cd;
+  padding: 32px;
+  border-radius: 20px;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 15px;
+  color: #555555;
+}
+
+/* Modo de Jogo */
+.modo-jogo {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.modo-jogo button {
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: none;
+
+  background: #2b2b2b;
+  color: #ffffff;
+
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.modo-jogo button:hover {
+  background: #1a1a1a;
+}
+
+/* Botoes */
+.jogadas {
+  display: flex;
+  gap: 14px;
+  margin: 26px 0;
+}
+
+.jogadas button {
+  flex: 1;
+  padding: 14px;
+
+  border-radius: 12px;
+  border: none;
+
+  background: #2b2b2b;
+  color: white;
+
+  font-size: 15px;
+  cursor: pointer;
+
+  transition: transform 0.15s, background 0.15s;
+}
+
+.jogadas button:hover {
+  background: #1a1a1a;
+  transform: translateY(-2px);
+}
+
+/* Texto Escolhas*/
+.escolhas {
+  .escolhas {
+  text-align: center;
+  font-size: 14px;
+  color: #555555;
+  margin-top: 6px;
+}
+
+}
+
+/* Resultado */
+.resultado {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Placar */
+.placar {
+  margin-top: 26px;
+  padding-top: 16px;
+  border-top: 1px solid #c4bab2;
+  text-align: center;
+}
+
+.placar p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+
+/* Reset */
+#resetar {
+  display: block;
+  margin: 22px auto 0;
+  padding: 10px 20px;
+
+  border-radius: 999px;
+  border: none;
+
+  background: #2b2b2b;
+  color: white;
+
+  font-size: 13px;
+  cursor: pointer;
+}
+
+#resetar:hover {
+  background: #1a1a1a;
+}
+
+
+/* Resultado */
+
+.vitoria {
+  color: #15803d;
+}
+
+.derrota {
+  color: #b91c1c;
+}
+
+.empate {
+  color: #92400e;
+}
+
+.confronto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px 0;
+}
+
+.lado {
+  text-align: center;
+}
+
+.lado img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 6px;
+}
+
+.vs {
+  font-weight: 600;
+  color: #777;
+}
