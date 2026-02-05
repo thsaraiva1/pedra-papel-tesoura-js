@@ -11,7 +11,6 @@ const botaoResetar = document.getElementById("resetar");
 
 // Textos
 const textoResultado = document.getElementById("resultado");
-const textoEscolhas = document.getElementById("escolhas-texto");
 
 // Placar
 const placarJogador = document.getElementById("placar-jogador");
@@ -50,7 +49,7 @@ function configurarJogo(total) {
     placarEmpates.textContent = "Empates: 0";
 
     textoResultado.textContent = "Resultado:";
-    textoEscolhas.textContent = "-";
+    
 
     console.log("Modo configurado:", total);
     console.log("Vitórias necessárias:", vitoriasNecessarias);
@@ -67,7 +66,18 @@ melhor5.addEventListener("click", () => {
 
 botaoResetar.addEventListener("click", () => {
     configurarJogo(totalDeRodadas);
+    limparInterface();
+    console.log("resetado");
+    
 });
+
+function limparInterface() {
+    iconeJogador.innerHTML = "";
+    iconeComputador.innerHTML = "";
+    jogadaJogadorTexto.textContent = "";
+    jogadaComputadorTexto.textContent = "";
+    textoResultado.textContent = "Resultado:";
+}
 
 
 // Eventos jogo
@@ -135,6 +145,8 @@ botoes.forEach((botao) => {
             if (jogada === "tesoura") {
                 return "<img src='imagens/tesoura.png' alt='Tesoura'>";
             }
+            
+           
         }
     });
 });
