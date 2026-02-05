@@ -18,6 +18,8 @@ Objetivo do projeto
 
 Projeto criado para praticar condicionais, funções, eventos e lógica básica de jogos, sem uso de frameworks.
 
+![ppt](https://github.com/user-attachments/assets/1303ed95-71be-4b09-ad09-47adb84e1b96)
+
 ``` bash
 git clone https://github.com/thsaraiva1/pedra-papel-tesoura-js.git
-![ppt](https://github.com/user-attachments/assets/e104dff9-f13c-48d0-b1ab-3e235d6887c8)
+
