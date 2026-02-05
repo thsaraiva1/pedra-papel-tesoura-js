@@ -20,3 +20,4 @@ Projeto criado para praticar condicionais, funções, eventos e lógica básica 
 
 ``` bash
 git clone https://github.com/thsaraiva1/pedra-papel-tesoura-js.git
+![ppt](https://github.com/user-attachments/assets/e104dff9-f13c-48d0-b1ab-3e235d6887c8)
